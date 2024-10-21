@@ -1,0 +1,39 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: antiquewhite;
+  font-family: monospace;
+}
+
+.container {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+h1,
+h2 {
+  text-align: center;
+  margin: 20px 0;
+}
+
+input,
+textarea,
+button {
+  width: 100%;
+  min-height: 40px;
+  padding: 10px 20px;
+  margin-bottom: 10px;
+  border: 1px solid black;
+  font-family: monospace;
+}
+
+/* Per i post che stamperemo con js */
+h3,
+p {
+  margin: 10px 0;
+}

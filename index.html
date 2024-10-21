@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>REST CRUD</title>
+  </head>
+  <body>
+    <!-- Custom container -->
+    <div class="container">
+      <!-- Titolo pagina -->
+      <h1 class="title">Posts da JSONPlaceholder</h1>
+
+      <!-- Form per l'aggiunta di un nuovo post -->
+      <h2 class="form-title">Aggiungi un nuovo post</h2>
+      <form id="postForm">
+        <input type="text" id="title" placeholder="Title" required /><br />
+        <textarea id="body" placeholder="Body" required></textarea><br />
+        <button type="submit">Invia</button>
+      </form>
+
+      <!-- Container dei post -->
+      <div id="posts"></div>
+    </div>
+
+    <!-- JavaScript -->
+    <script src="script.js"></script>
+  </body>
+</html>
